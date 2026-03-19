@@ -41,14 +41,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Tavares Assessoria Jurídica",
+  name: "Dra. Claudia Ferreira",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "familia.taj.adv.br", // Sem "www"
+  domain: "familia.ferreiraealvesadv.com.br", // Sem "www"
   phone: {
     ddd: "11",
-    firstPart: "97394", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "0876", // Apenas os 4 últimos números
+    firstPart: "3566", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "6392", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "00",
@@ -63,10 +63,10 @@ export const infos = {
   endereco: (
     <div>
       {/* <p>Endereço:</p> */}
-      <p>A_Definir,</p>
-      <p>A_Definir,</p>
-      <p>A_Definir,</p>
-      <p>A_Definir,</p>
+      <p>Rua Santo Cristo,</p>
+      <p>nº 48, sala 1, Vila Fiuza,</p>
+      <p>Guarulhos - SP,</p>
+      <p>CEP: 07090-150</p>
     </div>
   ),
   enderecoSecundario: (
@@ -80,7 +80,7 @@ export const infos = {
   expediente: (
     <div>
       <p>Segunda a sexta-feira:</p>
-      <p>8h às 18h</p>
+      <p>9h às 17h</p>
     </div>
   ),
   obs: <span className="italic">A_Definir </span>,
@@ -122,7 +122,7 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: <>ADVOGADO DE DIREITO DE FAMÍLIA</>,
+      miniTag: <>ADVOGADA DE DIREITO DE FAMÍLIA</>,
       FirstPart: <span>Segurança jurídica para sua</span>,
       Destaque: (
         <span className="destaque relative italic font-light">família</span>
@@ -140,17 +140,12 @@ const content = {
       alt: "Imagem ilustrativa da Seção Início",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      ctaButtonText: <>Falar com o Advogado</>,
+      ctaButtonText: <>Falar com a Advogada</>,
       ctaButtonTextSecondary: <>A_Definir</>,
       obsHero: {
         icon: <LucideIdCard />,
         iconTwo: <LucideIdCard />,
-        text: (
-          <>
-            Atendimento online para todo Brasil e presencial para SP e Região
-            Metropolitana.
-          </>
-        ),
+        text: <>Atendimento presencial e online para todo Brasil</>,
         textTwo: <>A_Definir</>,
       },
       secondaryCta: "Contato",
@@ -191,7 +186,11 @@ const content = {
     features: {
       miniTag: <>ÁREAS DE ATUAÇÃO</>,
       FirstPart: <span>Estratégia Jurídica e Segurança em</span>,
-      Destaque: <span className="italic font-light">Família e Sucessões</span>,
+      Destaque: (
+        <span className="italic font-light">
+          Direito de Família Internacional
+        </span>
+      ),
       SecondPart: <span></span>,
       subtitle: (
         <>
@@ -355,8 +354,28 @@ const content = {
           buttonLabelModal: "Fale Conosco",
           buttonLabel: "Saiba Mais",
         },
+        card10: {
+          title: <>Direito de Família Internacional</>,
+          subtitle: (
+            <>
+              Resolva questões familiares mesmo com pessoas em diferentes
+              países.
+            </>
+          ),
+          description: (
+            <div>
+              A_Definir
+              <br />
+              <br />
+              A_Definir
+            </div>
+          ),
+          icon: <FileText />,
+          buttonLabelModal: "Fale Conosco",
+          buttonLabel: "Saiba Mais",
+        },
       },
-      ctaButtonText: <>Falar agora com o Advogado</>,
+      ctaButtonText: <>Falar agora com a Advogada</>,
     },
     cardsSection: {
       miniTag: <>A_Definir</>,
@@ -406,9 +425,9 @@ const content = {
         img: aboutImg,
         alt: "Imagem ilustrativa da Seção Sobre",
       },
-      miniTag: <>QUEM É O TAVARES ASSESSORIA JURÍDICA</>,
+      miniTag: <>QUEM É A DRA. CLAUDIA FERREIRA</>,
       FirstPart: <span> Nossa atuação em</span>,
-      Destaque: <span className="italic font-light"> Direito Condominial</span>,
+      Destaque: <span className="italic font-light"> Direito de Família</span>,
       SecondPart: <span></span>,
       subtitle: <></>,
       paragraph: (
