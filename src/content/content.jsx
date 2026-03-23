@@ -199,8 +199,8 @@ const content = {
       subtitle: (
         <>
           Atuação preventiva e contenciosa para proteger relações familiares,
-          patrimônio e decisões que impactam geraçõe, especialista em Direito de
-          Família Internacional
+          patrimônio e decisões que impactam gerações, especialista em Direito
+          de Família Internacional
         </>
       ),
       imgFeatures: imgFeatures,
