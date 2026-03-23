@@ -53,7 +53,7 @@ export default function Index() {
 
         <main>
           <AlternatingSection index={0} colorMode={colorMode} forcePrimaryDark>
-            <HeroTemplateNovo colorMode={colorMode} obs={true} obsTwo={false} />
+            <HeroTemplateNovo colorMode={colorMode} obs={true} obsTwo={true} />
           </AlternatingSection>
 
           {/* <AlternatingSection index={1} colorMode={colorMode}>

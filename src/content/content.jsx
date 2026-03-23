@@ -143,10 +143,14 @@ const content = {
       ctaButtonText: <>Falar com a Advogada</>,
       ctaButtonTextSecondary: <>A_Definir</>,
       obsHero: {
-        icon: <LucideIdCard />,
-        iconTwo: <LucideIdCard />,
-        text: <>Atendimento presencial e online para todo Brasil</>,
-        textTwo: <>A_Definir</>,
+        icon: "📍",
+        iconTwo: "🌍",
+        text: <>Atendimento presencial e online em todo o Brasil</>,
+        textTwo: (
+          <>
+            Atuação especializada em Direito de Família Nacional e Internacional
+          </>
+        ),
       },
       secondaryCta: "Contato",
     },
@@ -185,24 +189,28 @@ const content = {
     },
     features: {
       miniTag: <>ÁREAS DE ATUAÇÃO</>,
-      FirstPart: <span>Estratégia Jurídica e Segurança em</span>,
+      FirstPart: <span></span>,
       Destaque: (
         <span className="italic font-light">
-          Direito de Família Internacional
+          Estratégia Jurídica e Segurança
         </span>
       ),
-      SecondPart: <span></span>,
+      SecondPart: <span> em Direito de Família e Família Internacional</span>,
       subtitle: (
         <>
           Atuação preventiva e contenciosa para proteger relações familiares,
-          patrimônio e decisões que impactam gerações.
+          patrimônio e decisões que impactam geraçõe, especialista em Direito de
+          Família Internacional
         </>
       ),
       imgFeatures: imgFeatures,
       alt: <>Imagem ilustrativa da Features</>,
       titleMessageFeature: <>Atuação firme </>,
       subtitleMessageFeature: (
-        <>na defesa dos interesses familiares e patrimoniais</>
+        <>
+          na defesa dos interesses familiares e patrimoniais dentro e fora do
+          Brasil
+        </>
       ),
       cards: {
         card1: {
